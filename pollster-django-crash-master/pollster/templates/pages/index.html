@@ -1,0 +1,12 @@
+{% extends 'base.html' %} {% block content %}
+
+<div class="card text-center">
+  <div class="card-body">
+    <h1>Welcome To BELLS UNIVERSITY Voting system</h1>
+    <p>This GROUP 6 Web Development Poject</p>
+    <a class="btn btn-dark" href="{% url 'polls:index' %}">
+      View Available Polls</a
+    >
+  </div>
+</div>
+{% endblock %}
